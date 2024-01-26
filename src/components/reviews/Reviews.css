@@ -1,0 +1,27 @@
+:root {
+  --main-color: #43121d;
+  --alt-color: #a82d49;
+}
+
+#reviews {
+  background-color: var(--main-color);
+  height: 550px;
+}
+.testi-item {
+  background-color: #fff;
+  width: 400px !important;
+  height: 350px !important;
+  border-radius: 10px;
+}
+.carousel-control-next-icon , .carousel-control-prev-icon {
+  opacity: 0;
+}
+button.active{
+    opacity: 0 !important;
+}
+.testi p{
+  color: #111111;
+}
+.testi h5{
+    color: var(--alt-color);
+}

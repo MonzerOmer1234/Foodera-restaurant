@@ -1,0 +1,45 @@
+:root {
+  --main-color: #43121d;
+  --alt-color: #a82d49;
+  --gray-color: #999;
+}
+.explore-foods h2 {
+  color: var(--main-color);
+}
+.explore-foods p {
+  margin: 3rem;
+  
+  line-height: 2;
+  color: #555555;
+  font-size: 18px;
+}
+
+.food-div {
+  border-bottom: 1px solid #eee;
+}
+#foods .row div div h5 {
+  color: var(--main-color);
+}
+#foods .row div div p.time {
+  color: #555555;
+}
+.food-note {
+  font-weight: bold;
+  font-size: 30px;
+
+}
+.food-note span {
+  color: var(--alt-color);
+}
+.food-note del {
+  color: var(--gray-color);
+}
+button {
+  background-color: var(--red-color);
+  outline: none;
+  border: 1px solid var(--red-color);
+  color: #fff;
+  line-height: 50px;
+  height: 50px;
+  width: 150px;
+}

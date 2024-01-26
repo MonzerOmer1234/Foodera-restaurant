@@ -1,0 +1,51 @@
+:root{
+    --main-color : #43121D;
+    --alt-color : #A82D49;
+}
+.row h2{
+    color: var(--main-color);
+    line-height: 1.4;
+}
+.row  p{
+    line-height: 1.6;
+    color: #555555;
+}
+.row  ul li{
+    margin-bottom: 10px;
+}
+.row  ul li svg{
+    color: var(--main-color);
+    margin-right: 15px;
+    font-size: 25px;
+   
+    top: 4px;
+}
+/* Starting story */
+section.story{
+    background-image: url(../../assets/imgs/parralax.jpg);
+    background-size: cover;
+    height: 700px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    
+}
+section.story div{
+    padding: 3rem ;
+}
+section.story h2{
+    color: var(--alt-color);
+    font-size: 40px;
+} 
+section.story p{
+    color: #555555;
+    line-height: 2;
+    font-size: 20px;
+}
+@media (min-width : 768px){
+    section.story p{
+        padding: 3rem;
+       
+    }
+
+}
+

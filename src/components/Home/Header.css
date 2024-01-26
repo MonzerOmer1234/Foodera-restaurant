@@ -1,0 +1,40 @@
+
+:root {
+    --red-color: #ab3550;
+  }
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background: url("./../../assets/imgs/header.jpg") center no-repeat;
+    background-size: cover;
+     height: auto;
+     padding: 25px 0;
+}
+header h2{
+    color: #43121D;
+    font-size: 55px;
+    line-height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+header .row{
+    margin: 50px 0;
+}
+header p{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header button{
+    background-color: var(--red-color);
+    outline: none;
+    border: 1px solid var(--red-color);
+    color: #fff;
+    margin : 0 10px 10px 0;
+   line-height: 50px;
+   height: 50px;
+   width: 150px;
+
+}

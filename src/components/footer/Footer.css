@@ -1,0 +1,44 @@
+:root {
+  --main-color: #43121d;
+  --alt-color: #a82d49;
+}
+.footer {
+  height: 400px;
+}
+.footer h2 {
+  color: var(--main-color);
+  font-size: 40px;
+}
+.footer p {
+  color: #555555;
+}
+.footer input {
+  width: 350px;
+}
+.subscribe {
+  background-color: var(--red-color);
+  outline: none;
+  border: 1px solid var(--red-color);
+  color: #fff;
+  margin: 0 10px 10px 0;
+  line-height: 50px;
+  height: 50px;
+  width: 150px;
+}
+section.footer{
+    background-color: var(--alt-color);
+    
+}
+
+section.footer ul li{
+    cursor: pointer;
+}
+section.footer ul li:hover{
+    text-decoration: underline;
+}
+section.footer p{
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%)
+}

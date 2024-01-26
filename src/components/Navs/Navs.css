@@ -1,0 +1,36 @@
+:root {
+  --red-color: #ab3550;
+}
+
+nav {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 0;
+ 
+}
+nav a:not(.last-nav) {
+  color: var(--red-color) !important;
+  font-size: 15px !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.last-nav {
+  color: white !important;
+}
+nav #last-nav {
+  border: 1px solid var(--red-color);
+  background-color: var(--red-color);
+}
+nav #last-nav:hover {
+  background-color: transparent;
+}
+.last-nav:hover {
+  color: var(--red-color) !important;
+}
+
+nav img {
+  max-width: 100%;
+  height: 90%;
+}
